@@ -40,8 +40,8 @@ void Verify(const v8::FunctionCallbackInfo<Value>& args) {
   Isolate* isolate = Isolate::GetCurrent();
   HandleScope scope(isolate);
 
-  unsigned int n = 200;
-  unsigned int k = 9;
+  unsigned int n = 96;
+  unsigned int k = 5;
 
   if (args.Length() < 2) {
   isolate->ThrowException(Exception::TypeError(
